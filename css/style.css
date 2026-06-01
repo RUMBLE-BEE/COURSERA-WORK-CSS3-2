@@ -68,7 +68,7 @@ img{
     border-radius: 10px;
 }
 
-/* GRID (neighborhood.html) */
+/* GRID */
 .grid{
     display: grid;
     grid-template-columns: 40% 40%;
@@ -82,7 +82,7 @@ img{
     width: 100%;
 }
 
-/* FLEX (parks.html) */
+/* FLEX */
 .flex{
     display: flex;
     flex-wrap: wrap;
