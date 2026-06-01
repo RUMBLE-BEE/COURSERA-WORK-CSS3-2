@@ -17,11 +17,20 @@ header{
     text-align: center;
 }
 
+/* NAV */
 nav{
+    display: inline-block;
+    width: 80%;
     background-color: #219ebc;
     padding: 10px;
 }
 
+/* selector descendente */
+nav img{
+    width: 10%;
+}
+
+/* main */
 main{
     background-color: white;
     font-size: 20px;
@@ -34,10 +43,13 @@ footer{
     text-align: center;
 }
 
+/* li comentado (Tarea 2 lo pide)
+/*
 li{
     display: inline-block;
     width: 150px;
 }
+*/
 
 h1{
     text-align: center;
@@ -49,10 +61,30 @@ p{
     line-height: 1.6;
 }
 
+/* imágenes generales */
 img{
     margin: 5px;
     border: 3px solid #219ebc;
-
-  added css
     border-radius: 10px;
+}
+
+/* GRID (neighborhood.html) */
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+/* imágenes dentro de grid */
+.grid img{
+    width: 100%;
+}
+
+/* FLEX (parks.html) */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
